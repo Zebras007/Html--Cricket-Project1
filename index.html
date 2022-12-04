@@ -7,10 +7,15 @@
     <title>Cricket-Project</title>
 </head>
 <body>
-    <section>
-    <h1>Cricket in India</h1>
+    <div id="cricket_project_container">  
+    <header class="project title">
+   <h1>Cricket in India</h1>
+</header>
+<section class="Description">
     <h3>How it got started</h3>
     <p>Cricket was introduced to India by British sailors in the 18th century, and the first cricket club was established in 1792. India's national cricket team played its first Test match on 25 June 1932 at Lord's, becoming the sixth team to be granted test cricket status</p>
+</section>
+<section class="Types of tournaments">
     <h3>Important cricket Tournaments</h3>
     <ul>
         <li>Internation Events</li>
@@ -26,9 +31,18 @@
         </ol>
     </ul>
     <p>All the above events are no doubt the great events but the most important event is no doubt the 50-50 and t-20 worldcup</p>
+</section>
+<section class="Cricket Worldcup winners list">
     <h3>Lets have a look at all 50-50 worldcup:</h3>
-    <target>Cricket World Cup</target>
     <table>
+            <tr>
+                <th colspan="6"><p>Cricket World Cup</p></th>
+                <!-- <td>an</td>
+                <td>bn</td>
+                <td>cn</td>
+                <td>dn</td> -->
+            </tr>
+        
         <tr>
             <th>year</th>
             <th>winner</th>
@@ -129,7 +143,7 @@
     <p>This table has been taken from from cricket website: <a href="https://www.cricbuzz.com/cricket-stats/points-table/odi/icc-men-cricket-world-cup-super-league" target="_blank">click here</a> to visit</p>
     <p>I am criket guru btw, if you want to know something, you can contact me.</p>
 </section>
-<section>
+<section class="Contact form">
     <form>
         <fieldset>
         <legend>Contact Form</legend>
@@ -151,6 +165,7 @@
         <input type="radio" id="Others" name="gender" value="Others">
         <label for="Others">Others</label> <br>
        <br>
+       <!-- This is for Drop_Down-Search_List of Indian Cricketers -->
        <label for="Cricketers">Select your favourite player:</label> <br>
        <input type="text" list="Indian_Cricketers">
        <datalist id="Indian_Cricketers">
@@ -167,13 +182,14 @@
         <option value="Suresh Raina">
      </datalist> <br> <br>
      <label for="address">Address</label> <br>
-     <input type="addres" id="address" name="address">
-     <br> <br>
+     <textarea type="addres" id="address" name="address"> </textarea> <br>
      <input type="submit" value="Register">
     </fieldset>
     </form>
 </section>
 <p>with everything we also came to end so a departing gift from our side:</p>
+<section class="Footer iframe"></section>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mEOBGY4-7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div> 
 </body>
 </html>
